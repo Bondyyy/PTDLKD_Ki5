@@ -1,0 +1,16 @@
+﻿dataset,check,affected_stocks,action
+NASDAQ,price_proxy không dương trên một số bước,569,Xác minh 0 là missing hay giá trị hợp lệ; return phải mask
+NASDAQ,return outlier abs >= 20%,307,"Kiểm tra split/dividend, chất lượng và định nghĩa kênh giá"
+NYSE,return outlier abs >= 20%,241,"Kiểm tra split/dividend, chất lượng và định nghĩa kênh giá"
+SP500,return outlier abs >= 20%,176,"Kiểm tra split/dividend, chất lượng và định nghĩa kênh giá"
+NYSE,price_proxy không dương trên một số bước,114,Xác minh 0 là missing hay giá trị hợp lệ; return phải mask
+NASDAQ,time_index trùng,0,Rà soát thứ tự và các quan sát bị lặp
+NASDAQ,missing ở ít nhất một feature,0,"Kiểm tra missing mask, không forward-fill trước split một cách tùy tiện"
+NYSE,time_index trùng,0,Rà soát thứ tự và các quan sát bị lặp
+NYSE,missing ở ít nhất một feature,0,"Kiểm tra missing mask, không forward-fill trước split một cách tùy tiện"
+NASDAQ,độ dài chuỗi dưới 90% median,0,Chọn coverage criteria và xây dựng mask riêng
+NYSE,độ dài chuỗi dưới 90% median,0,Chọn coverage criteria và xây dựng mask riêng
+SP500,missing ở ít nhất một feature,0,"Kiểm tra missing mask, không forward-fill trước split một cách tùy tiện"
+SP500,time_index trùng,0,Rà soát thứ tự và các quan sát bị lặp
+SP500,price_proxy không dương trên một số bước,0,Xác minh 0 là missing hay giá trị hợp lệ; return phải mask
+SP500,độ dài chuỗi dưới 90% median,0,Chọn coverage criteria và xây dựng mask riêng

@@ -1,0 +1,4 @@
+﻿dataset,file_count,files_empty,total_MB,csv_count,npy_count,example_files
+NASDAQ,1027,0,69.66,1027,0,"NASDAQ_AABA_1.csv, NASDAQ_AAON_1.csv, NASDAQ_AAPL_1.csv, NASDAQ_AAWW_1.csv"
+NYSE,1738,0,117.81,1738,0,"NYSE_A_1.csv, NYSE_AAN_1.csv, NYSE_AAP_1.csv, NYSE_AAT_1.csv"
+SP500,5,0,354.04,3,2,"baseline_data_sp500.csv, baseline_data_sp500.npy, SP500.csv, SP500.npy"

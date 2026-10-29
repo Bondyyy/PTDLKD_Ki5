@@ -1,0 +1,9 @@
+﻿column,missing_count,missing_pct,dtype_sample
+adjclose,3450,0.2881425579041262,float64
+stock_key,0,0.0,object
+close,0,0.0,float64
+index,0,0.0,object
+open,0,0.0,float64
+high,0,0.0,float64
+low,0,0.0,float64
+volume,0,0.0,float64
